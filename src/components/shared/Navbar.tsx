@@ -7,8 +7,8 @@ export default function Navbar() {
   return (
     <div className="flex flex-row items-center justify-between">
             <Avatar className='h-16 w-16'>
-            <AvatarImage src="https://avatars.githubusercontent.com/u/110554721?v=4" />
-            <AvatarFallback>Harshil Tomar</AvatarFallback>
+              <AvatarImage src="https://avatars.githubusercontent.com/u/110554721?v=4" />
+              <AvatarFallback>Harshil Tomar</AvatarFallback>
             </Avatar>
             <ModeToggle/>
     </div>
