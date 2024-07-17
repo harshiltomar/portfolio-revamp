@@ -19,10 +19,10 @@ export default function Tabsroute() {
         <TabsTrigger value="Projects">Projects</TabsTrigger>
         <TabsTrigger value="Contact">Contact</TabsTrigger>
         </TabsList>
-        <TabsContent value="overview" className="space-y-4">
+        <TabsContent value="About" className="space-y-4">
             <About/>
         </TabsContent>
-        <TabsContent value="transactions" className='space-y-4'>
+        <TabsContent value="Blogs" className='space-y-4'>
             <Blogs/>
         </TabsContent>
         <TabsContent value="Projects" className='space-y-4'>
