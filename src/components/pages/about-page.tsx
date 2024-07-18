@@ -4,6 +4,7 @@ import Experience from '../micro/experience-list'
 export default function About() {
   return (
     <div>
+      //@ts-ignore
       <img className='rounded-3xl' src="https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif"/>
       <div className='mt-10'>
         <text className='text-3xl font-serif'>Hello there! I'm Harshil Tomar ✨</text>
