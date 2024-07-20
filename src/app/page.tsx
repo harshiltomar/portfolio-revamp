@@ -1,10 +1,6 @@
-import { ModeToggle } from "@/components/micro/theme-toggle";
-import Navbar from "@/components/shared/navbar";
 import SocialInfo from "@/components/shared/social-info";
 import Tabsroute from "@/components/shared/tabs-route";
-
-
-import Image from "next/image";
+import Navbar from "../components/shared/navbar"
 
 export default function Home() {
   return (
