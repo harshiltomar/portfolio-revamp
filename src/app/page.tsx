@@ -1,5 +1,5 @@
 import { ModeToggle } from "@/components/micro/theme-toggle";
-import Navbar from "@/components/shared/Navbar";
+import Navbar from "@/components/shared/navbar";
 import SocialInfo from "@/components/shared/social-info";
 import Tabsroute from "@/components/shared/tabs-route";
 
