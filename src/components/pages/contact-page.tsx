@@ -26,7 +26,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="space-y-2">
-          <Label htmlFor="subject">Subject (optional)</Label>
+          <Label htmlFor="subject">Subject</Label>
           <Input id="subject" type="text" placeholder="Project inquiry" />
         </div>
         <div className="space-y-2">
