@@ -1,6 +1,6 @@
 import SocialInfo from "@/components/shared/social-info";
 import Tabsroute from "@/components/shared/tabs-route";
-import Navbar from "../components/shared/navbar"
+import Navbar from "@/components/shared/navbar-info";
 
 export default function Home() {
   return (
