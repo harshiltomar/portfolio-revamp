@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="space-y-6 text-center">
         <h1 className="text-4xl font-bold tracking-tight">Get in Touch</h1>
         <p className="text-muted-foreground text-lg">
-          Have a question or want to work together? Fill out the form below and I'll get back to you as soon as
+          Have a question or want to work together? Fill out the form below and I will get back to you as soon as
           possible.
         </p>
       </div>
