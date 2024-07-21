@@ -4,6 +4,8 @@ import { Label } from '../ui/label';
 import { Input } from '../ui/input';
 import { Button } from '../ui/button';
 import { Textarea } from '../ui/textarea';
+import { toast } from '../ui/use-toast';
+import { ToastAction } from '../ui/toast';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -33,9 +35,22 @@ export default function Contact() {
     })
       .then((response) => {
         if (response.ok) {
-          alert('Form submitted successfully');
+          //alert('Form submitted successfully');
+          toast({
+            title: 'Form submitted successfully',
+            description: "Hey ! Thanks for the Submission, will get to you Soon : )",
+          })
         } else {
-          alert('Form submission failed');
+          //alert('Form submission failed');
+          toast({
+            title: 'Form submitted failed',
+            description: "Hey, couldn't send the mail. Ping me at harshiltomar20@gmail.com",
+            action: (
+              <ToastAction altText="Mail Send !">
+                <a href='mailto:harshiltomar20@gmail.com' target='_blank' >Send Mail &rarr;</a>
+              </ToastAction>
+            ),
+          })
         }
       })
       .catch((error) => {
